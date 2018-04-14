@@ -1,0 +1,16 @@
+List of DNS record types
+
+Before you use the dig command you should aware of common types of resource records of the DNS. Here are most common resource records:
+Type	Purpose	Examples
+A	IPv4 IP address	192.168.1.5 or 75.126.153.206
+AAAA	IPv6 IP address	2607:f0d0:1002:51::4
+CNAME	Canonical name record (Alias)	s0.cyberciti.org is an alias
+for d2m4hyssawyie7.cloudfront.net
+MX	Email server host names	smtp.cyberciti.biz or mx1.nixcraft.com
+NS	Name (DNS) server names	ns1.cyberciti.biz or ns-243.awsdns-30.com
+PTR	Pointer to a canonical name.
+Mostly used for implementing reverse DNS lookups	82.236.125.74.in-addr.arpa
+SOA	Authoritative information about a DNS zone	see below
+TXT	Text record	see below
+
+By default, dig command looks for A records only.
