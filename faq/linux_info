@@ -1,0 +1,4 @@
+watch ss -tp   # подивитись відкриті з'єднання **  Network connections
+netstat -ant   # upd ** Tcp connections -anu=udp
+netstat -tulpn # Connections with PIDs
+lsof -i        # Established connections
