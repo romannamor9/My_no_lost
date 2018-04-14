@@ -6,6 +6,7 @@ lsof -i        # Established connections
 ps -ef         # Process listing
 df -h          # Disk usage (free)
 uname -a       # Kernel version/CPU info
+getent passwd  # Список користувачів   ** Show list of users
 ########################################################################
 id
 w
