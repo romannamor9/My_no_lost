@@ -7,9 +7,19 @@ ps -ef         # Process listing
 df -h          # Disk usage (free)
 uname -a       # Kernel version/CPU info
 getent passwd  # Список користувачів   ** Show list of users
+# yum install bind-utils -y
+for ip in {1..254..1}; do dig -x l.l.l.$ip I grep $ip dns.txt; done;  # DNS REVERSE LOOKUP ???
+
 ########################################################################   : (){:I: &I;: бомба крах системи :) 
 id
 w
 who -a
 last -a
-
+########################################################################
+# /etc/shadow   # локальні хеші
+# /etc/passwd   # локальні користувачі
+# /etc/group    # локальні групи
+# /etc/rc.d     # Статові сервіси
+# /etc/init.d   # Сервіси
+# /etc/hosts    # прописані хости 
+# /etc/hostname # імя хоста
