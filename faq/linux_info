@@ -2,6 +2,7 @@
 watch ss -tp   # подивитись відкриті з'єднання **  Network connections
 netstat -ant   # upd ** Tcp connections -anu=udp
 netstat -tulpn # Connections with PIDs
+netstat -plutn # порти що прослуховуються
 lsof -i        # Established connections  # 
 lsof -i :80  
 ps -ef         # Process listing
